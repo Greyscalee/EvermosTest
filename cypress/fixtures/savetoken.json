@@ -1,0 +1,122 @@
+{
+  "code": "CMP00",
+  "status": 200,
+  "message": "Login Successful",
+  "success": true,
+  "data": {
+    "isexpired": false,
+    "created_at": "2020-07-10T09:43:59.763Z",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjEsInVzZXJfaWQiOiJDT01NLTAyNzIxMDQ4MzY2NzY4MTIyMDIwMDEyMyIsInVzZXJfbmFtZSI6Im1hcmFib3R1MiIsImxldmVsIjoxLCJzc29fdHlwZSI6MSwiY29tbV9pZCI6MCwiZGJzcWwiOiJjb21tanVuY3Rpb24iLCJkYm1vbmdvIjoiY29tbWp1bmN0aW9uIiwiaWF0IjoxNTk0Mzc0MjM5LCJleHAiOjE1OTY5NjYyMzl9.dcl30ROByqdzvTiOuIPvoA5IBQT71j1fv7Wve5WpVds",
+    "expires": "2020-08-09",
+    "user": {
+      "full_name": "envirtups test2",
+      "user_name": "marabotu2",
+      "notelp": "088882222",
+      "email": "envirtupsdummy1@gmail.com",
+      "alamat": "ichsan",
+      "picture": null
+    },
+    "my_feature": [
+      {
+        "id": 159,
+        "title": "Profile Management",
+        "description": "Fitur Profile Management",
+        "logo": "public/feature/feature2c44dcd6077439369a49e8165820a7e4391b0212013ec2ba61be8ba7f4f493de.png",
+        "module_endpoints": [
+          {
+            "module": "Profile Management",
+            "endpoint": "/api/profilemanagement/editprofile",
+            "method": "post",
+            "activity": "Edit Profile",
+            "sub_feature": {
+              "id": 75,
+              "title": "Edit Profile",
+              "description": "Sub Feature Edit Profile",
+              "logo": "public/feature/feature2c44dcd6077439369a49e8165820a7e4391b0212013ec2ba61be8ba7f4f493de.png"
+            }
+          },
+          {
+            "module": "Profile Management",
+            "endpoint": "/api/profilemanagement/logout",
+            "method": "post",
+            "activity": "Logout",
+            "sub_feature": {
+              "id": 73,
+              "title": "Logout",
+              "description": "Sub Feature Logout",
+              "logo": "public/feature/feature2c44dcd6077439369a49e8165820a7e4391b0212013ec2ba61be8ba7f4f493de.png"
+            }
+          },
+          {
+            "module": "Profile Management",
+            "endpoint": "/api/profilemanagement/changepassword",
+            "method": "post",
+            "activity": "Change Password",
+            "sub_feature": {
+              "id": 74,
+              "title": "Change Password",
+              "description": "Sub Feature Change Password",
+              "logo": "public/feature/feature2c44dcd6077439369a49e8165820a7e4391b0212013ec2ba61be8ba7f4f493de.png"
+            }
+          }
+        ]
+      },
+      {
+        "id": 160,
+        "title": "User Type Management",
+        "description": "Fitur User Type Management",
+        "logo": "public/feature/feature2c44dcd6077439369a49e8165820a7e4391b0212013ec2ba61be8ba7f4f493de.png",
+        "module_endpoints": [
+          {
+            "module": "User Type Management",
+            "endpoint": "/api/usertype/listfeature",
+            "method": "post",
+            "activity": "List Feature",
+            "sub_feature": {
+              "id": 164,
+              "title": "List Feature",
+              "description": "List Feature",
+              "logo": "public/feature/feature2c44dcd6077439369a49e8165820a7e4391b0212013ec2ba61be8ba7f4f493de.png"
+            }
+          },
+          {
+            "module": "User Type Management",
+            "endpoint": "/api/usertype/create",
+            "method": "post",
+            "activity": "Create New User Type",
+            "sub_feature": {
+              "id": 77,
+              "title": "Create New User Type",
+              "description": "Sub Feature Create New User Type",
+              "logo": "public/feature/feature2c44dcd6077439369a49e8165820a7e4391b0212013ec2ba61be8ba7f4f493de.png"
+            }
+          },
+          {
+            "module": "User Type Management",
+            "endpoint": "/api/usertype/edit",
+            "method": "post",
+            "activity": "Edit User Type",
+            "sub_feature": {
+              "id": 76,
+              "title": "Edit User Type",
+              "description": "Sub Feature Edit User Type",
+              "logo": "public/feature/feature2c44dcd6077439369a49e8165820a7e4391b0212013ec2ba61be8ba7f4f493de.png"
+            }
+          },
+          {
+            "module": "User Type Management",
+            "endpoint": "/api/usertype/listusertype",
+            "method": "post",
+            "activity": "List User Type",
+            "sub_feature": {
+              "id": 165,
+              "title": "List User Type",
+              "description": "List User Type",
+              "logo": "public/feature/feature2c44dcd6077439369a49e8165820a7e4391b0212013ec2ba61be8ba7f4f493de.png"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
